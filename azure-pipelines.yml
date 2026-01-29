@@ -2,10 +2,10 @@
  #- qas
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: 'testpool'
 
 variables:
-  subscription: Visual Studio Enterprise(6126332c-5b2e-46d0-bdbb-a09be68684db)
+  subscription: Testprojconnection
   resourceGroup: iaas-dev-rg
   storageAccount: terraformtfstateskip1
   container: tfstate
